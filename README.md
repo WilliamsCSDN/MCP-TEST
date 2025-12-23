@@ -1,4 +1,5 @@
-HXQ Login MCP Server
+# HXQ Login MCP Server
+# 服务介绍
 这是一个基于 Model Context Protocol (MCP) 实现的盒小圈 (HXQ) APP 登录服务接口服务器。它通过标准化的 MCP 协议，为 AI 助手或客户端提供了模拟盒小圈用户登录、检查令牌状态以及刷新令牌的能力。
 
 ✨ 核心功能
@@ -101,7 +102,20 @@ json
   "errorCode": "HXQ-G-99993",
   "errorDesc": "账号或密码错误"
 }
-🔧 配置与自定义
+# 🔧 配置与自定义
+```
+{
+  "mcpServers": {
+    "douyin-mcp": {
+      "command": "uvx",
+      "args": ["douyin-mcp-server@1.1.0"],
+      "env": {
+        
+      }
+    }
+  }
+}
+```
 修改 API 端点
 代码中硬编码了登录请求的 URL。如需指向测试或特定的后端环境，请修改 hxq_login 函数中 client.post 调用的 URL：
 
