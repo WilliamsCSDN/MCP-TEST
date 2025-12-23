@@ -106,9 +106,9 @@ json
 ```
 {
   "mcpServers": {
-    "douyin-mcp": {
+    "test-mcp3": {
       "command": "uvx",
-      "args": ["douyin-mcp-server@1.1.0"],
+      "args": ["mini_mcp_server@1.0.0"],
       "env": {
         
       }
