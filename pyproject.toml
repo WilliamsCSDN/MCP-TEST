@@ -6,12 +6,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "hxq-login-mcp"           # PyPI上的包名，必须唯一
-version = "1.0.0"                # 初始版本号
+version = "1.0.1"                # 初始版本号
 description = "MCP server for HXQ (盒小圈) login API"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "WilliamsCSDN", email = "WilliamsCSDN@gmail.com"}
+    {name = "Your Name", email = "your.email@example.com"}
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -31,8 +31,8 @@ dependencies = [
 ]
 
 [project.scripts]
-mini_mcp_server = "mini_mcp_server.__main__:main"  # 命令行入口点
+hxq-login-mcp = "hxq_login_mcp.__main__:main"  # 命令行入口点
 
 [project.urls]
-Homepage = "https://github.com/WilliamsCSDN/mini_mcp_server"
-Repository = "https://github.com/WilliamsCSDN/mini_mcp_server"
+Homepage = "https://github.com/yourusername/hxq-login-mcp"
+Repository = "https://github.com/yourusername/hxq-login-mcp"
