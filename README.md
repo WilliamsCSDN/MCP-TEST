@@ -1,11 +1,15 @@
 # MCP-TEST
 
 # 三、如何运行
+```
 python3 mini_mcp_server.py
+```
 
 # 四、如何验证（非常重要）
 1️⃣ 模型发现能力
+```
 curl http://localhost:8080/capabilities
+```
 
 
 返回的是给模型看的能力说明书。
